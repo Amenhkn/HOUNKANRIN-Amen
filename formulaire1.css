@@ -1,0 +1,27 @@
+fieldset{
+     border: 5px solid black;
+     padding: 15px;
+     margin-bottom: 20px;
+     position: relative;
+}
+legend{
+    color:rgb(229, 3, 104);
+    font-size: 30px;
+}
+label{
+    color: rgb(254, 9, 9);
+    font-size: 20px;
+}
+input{
+    font-size: 16px;
+    color:rgb(6, 6, 6)
+}
+p{
+    font-size: 20px;
+}
+textarea{
+    font-size: 20px;
+}
+body{
+    background-color:#343a40;
+}

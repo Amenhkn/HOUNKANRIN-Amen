@@ -1,0 +1,23 @@
+h1{
+    text-align: center;
+    color: red;
+    font-size: 30px;
+}
+fieldset{
+    border: 5px solid black;
+    padding: 15px;
+    margin-bottom: 20px;
+    position: relative;
+}
+legend{
+   color:rgb(229, 3, 104);
+   font-size: 30px;
+}
+label{
+   color: rgb(240, 10, 10);
+   font-size: 20px;
+}
+body{
+   background-color: #999999;
+};
+}

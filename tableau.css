@@ -1,0 +1,24 @@
+table{
+     border-collapse: collapse;
+}
+td,th
+{
+ border: 2px solid black;
+ padding: 20px;
+}
+.titre{
+    background-color: red;
+}
+.colonne{
+    background-color: blue;
+}
+.suite{
+    background-color: green;
+}
+.conne{
+   writing-mode: vertical-rl;
+}
+body{
+    background-color: #343a40;
+};
+}

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" 
+    content="width=device-width
+    , initial-scale=1.0">
+    <title>Formulaire2</title>
+    <link rel="stylesheet" href="formulaire2.css">
+</head>
+<body>
+    <h1><u>ENREGISTREMENT</u></h1>
+    <form action="" method="post">
+        <fieldset>
+            <legend>Etat civil</legend>
+            <label for="Nom">Nom</label>:
+            <input type="text" name="Nom" id="Nom"/><br><br>
+            <label for="Prénom">Prénom</label>:
+            <input type="text" name="Prénom" id="Prénom"/><br><br>
+            <label for="Sexe">Sexe:</label>
+            <select name="Sexe" id="Sexe">
+                <option value="Masculin">Masculin</option>
+                <option value="Féminin">Féminin</option>
+            </select><br><br>
+            <label for="Adresse"> E-mail:</label>
+            <input type="text" name="Adresse" id="Adresse"><br><br>
+            <label for="Contact">Contact:</label>
+            <input type="text" name="contact" id="contact"/>
+        </fieldset>
+        <fieldset>
+            <legend>Les diplômes</legend>
+            <input type="checkbox" name="CEP" id="CEP"/><label for="CEP">CEP</label><br>
+            <input type="checkbox" name="BEPC" id="BEPC"/><label for="BEPC">BEPC</label><br>
+            <input type="checkbox" name="BAC" id="BAC"/><label for="BAC">BAC</label><br>
+            <input type="checkbox" name="BTS" id="BTS"/><label for="BTS">BTS</label>
+        </fieldset>
+        <fieldset>
+            <legend>Adresse</legend>
+            <textarea name="Adresse" id="Adresse" cols="30" rows="2"></textarea>
+        </fieldset>
+        <fieldset>
+            <legend>Pays</legend>
+            <input type="radio" name="continent" value="Bénin" id="Bénin"/><label for="Bénin">Bénin</label><br>
+            <input type="radio" name="continent" value="Togo" id="Togo"/><label for="Togo">Togo</label><br>
+            <input type="radio" name="continent" value="Sénégal" id="Sénégal"/><label for="Sénégal">Sénégal</label><br>
+            <input type="radio" name="continent" value="Nigéria" id="Nigéria"/><label for="Nigéria">Nigéria</label><br>
+            <input type="radio" name="continent" value="France" id="France"/><label for="France">France</label><br>
+            <input type="radio" name="continent" value="Espagne" id="Espagne"/><label for="Espagne">Espagne</label><br>
+            <input type="radio" name="continent" value="Belgique" id="Belgique"/><label for="Belgique">Belgique</label><br>
+            <input type="radio" name="continent" value="Allemagne" id="Allemagne"/><label for="Allemagne">Allemagne</label><br>
+            <input type="radio" name="continent" value="Italie" id="Italie"/><label for="Italie">Italie</label><br>
+            <input type="radio" name="continent" value="Brazil" id="Brazil"/><label for="Brazil">Brazil</label>
+        </fieldset>
+
+        <input type="submit" value="Envoyer" >
+        <input type="reset" value="Réinitialiser"> 
+        <a href="formulaire2.html"><button>Quitter</button></a>  
+    </form>
+
+    
+</body>
+</html>
